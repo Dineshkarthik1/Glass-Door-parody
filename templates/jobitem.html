@@ -1,6 +1,6 @@
 <div class="border-bottom row" style="margin-bottom: 16px; padding-bottom:8px ">
   <div class="col-9">
-    <h4>
+    <h4 style="color:green">
       {{job['title']}}
     </h4>
     <div>
@@ -13,6 +13,10 @@
     {% endif %}
   </div>
   <div class="col-3">
-  <button type="button" class="btn btn-outline-primary">APPLY</button>
+    <a href="mailto:bdk3318@gmail.com?subject=application%20for%20{{job['title']}}&body=my%20name%3A%3Cyour%20name%3E%0D%0Amy%20resume%3A%3Cresume%20link%3E%0D%0Amy%20linkedin%20%3A%3Cpaste%20link%3E" 
+       class="btn btn-success float-right">
+       APPLY
+    </a>
   </div>
+
 </div>

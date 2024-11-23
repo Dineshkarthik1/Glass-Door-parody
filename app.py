@@ -19,7 +19,7 @@ JOBS = [
 
 @app.route("/")
 def home():
-  return render_template('home.html', jobs=JOBS, company_name = 'Sosuke Aizen ')
+  return render_template('home.html', jobs=JOBS, company_name = 'GlassDoor Parody')
 
 @app.route("/jobs")
 def list_jobs():
